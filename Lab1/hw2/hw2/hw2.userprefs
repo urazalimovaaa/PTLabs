@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{B576E956-0109-439C-9276-3EF0893C43C4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="hw2/Program.cs">
+    <Files>
+      <File FileName="hw2/Program.cs" Line="50" Column="1" />
+      <File FileName="../../../../PTLabs/Lab1/HW2/HW1.2/Program.cs" Line="30" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.hw2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
