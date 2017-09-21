@@ -6,44 +6,43 @@ using System.Text;
 namespace HW1
 {
 
-	class MainClass
-	{
-		public static void Main(string[] args)
-		{
-			int n, i;
-			Console.Write("Number of enters: ");
-			n = int.Parse(Console.ReadLine());
-			int[] numbers = new int[n];
-			Console.WriteLine("Enter numbers: ");
-			string[] s = Console.ReadLine().Split(' ');
-			for (i = 0; i < s.Length; i++)
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            int n;
+            Console.Write("Number of enters: ");
+            n = int.Parse(Console.ReadLine());
+            int[] numbers = new int[n];
+            Console.WriteLine("Enter numbers: ");
+            string[] s = Console.ReadLine().Split(' ');
+            for (int i = 0; i < n; i++)
+            {
+
+                numbers[i] = int.Parse(s[i]);
+            }
+            for (int i = 0; i < n; i++)
 			{
 
-				numbers[i] = int.Parse(s[i]);
-
-				if (isPrime(i))
-					Console.Write(i.ToString() + " ");
-
+                if (isSimple(numbers[i]))
+				{
+                    Console.Write(numbers[i].ToString() + " ");
+				}
 			}
-
-		}
-
-
-		public static bool isPrime(int i)
+        }
+		private static bool isSimple(int N)
 		{
-			if (i == 1)
-				return false;
-			if (i == 2)
-				return true;
-
-			for (int j = 3; j * j <= i; j++)
-			{
-				if (i % j == 0)
-					return false;
-			}
-			return true;
-
-
+            if (N == 1 || N == 0)
+                return false;
+            
+            for (int j = 2; j <= (int)(N / 2); j++)
+              {
+                    if (N % j == 0)
+                        return false;
+              }
+            return true;
+         
 		}
-	}
+       
+    }
 }

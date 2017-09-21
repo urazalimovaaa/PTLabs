@@ -1,0 +1,5 @@
+/Users/macbook/Desktop/PTlab/Lab1/hw1/hw1/hw1/obj/x86/Debug/hw1.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/PTlab/Lab1/hw1/hw1/hw1/bin/Debug/hw1.exe
+/Users/macbook/Desktop/PTlab/Lab1/hw1/hw1/hw1/bin/Debug/hw1.pdb
+/Users/macbook/Desktop/PTlab/Lab1/hw1/hw1/hw1/obj/x86/Debug/hw1.exe
+/Users/macbook/Desktop/PTlab/Lab1/hw1/hw1/hw1/obj/x86/Debug/hw1.pdb

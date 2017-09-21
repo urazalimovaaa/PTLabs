@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{B576E956-0109-439C-9276-3EF0893C43C4}</ProjectGuid>
+    <ProjectGuid>{97CAD19C-7865-4EFF-BC16-EDF7EBD98B49}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>hw2</RootNamespace>
     <AssemblyName>hw2</AssemblyName>
